@@ -7,6 +7,9 @@ to the ouput file. It repeats this process with the rest of the records.
 TECHNICAL NOTE
 file.eof() does not become true immediately upon reaching the end of the file, 
 but rather after a read operation tries to go past the end.
+
+DOWNLOAD
+Test files (mergePart1.txt & mergePart2.txt) are available at github.com/VMatosECC > Data Sets
 */
 
 #include <iostream>
